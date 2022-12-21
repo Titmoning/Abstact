@@ -38,5 +38,7 @@ public class House extends Building implements LivingHouse, SocialHouse{
     @Override
     public void coworking() {
         System.out.println("Кокосовый латте");
+        System.out.println("hello!");
     }
+
 }
