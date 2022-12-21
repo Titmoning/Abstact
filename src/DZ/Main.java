@@ -23,5 +23,7 @@ public class Main {
         Library l2 = new Library(employees,clients,book);
         System.out.println(l);
         System.out.println(l2);
+        Client client3 = new Client("Volodya", "Petrov", 19, "male", true);
+        clients.add(client3);
     }
 }
